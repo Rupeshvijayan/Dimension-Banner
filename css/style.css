@@ -1,0 +1,107 @@
+*{
+	padding:0;
+	margin:0;
+	box-sizing:border-box;
+	font-family: 'Poppins', sans-serif;
+	color:#aaaaaa;
+}
+
+#dimension_section{
+	height:100vh;
+	background: rgba(0,0,0,0.5) url(../images/mountain.jpg);
+	background-size:cover;
+	background-position:center;	
+	background-blend-mode:darken;
+}	
+
+.container{
+	width:50%;
+	margin:auto;
+}	
+
+.content{
+	padding-top:80px;
+}
+
+.logo{
+	display:flex;
+	justify-content:space-between;
+	align-items: center;
+}
+.logo i{
+	font-size:2.2rem;
+	padding:10px 20px;
+	border-radius:50%;
+	border:1px solid #aaaaaa;
+	margin: auto;
+	color:#fff;
+}
+
+.vertical_line_top{
+	border-left:1px solid #aaaaaa;
+	height:30px;
+	position:absolute;
+	left:50%;
+}
+
+.vertical_line_bottom{
+	border-left:1px solid #aaaaaa;
+	height:68px;
+	position:absolute;
+	left:50%;
+	bottom:36%;
+}
+
+hr{
+	margin:auto;
+	margin:30px 0;
+
+}
+
+.dimension{
+	padding:15px 0;
+}
+	
+.dimension h1{
+	font-size:2rem;
+	text-align:center;
+	padding:10px 0;
+	color:#fff;
+	letter-spacing:10px;
+}	
+
+.dimension p{
+	text-align:center;
+	font-size:0.9rem;
+	padding:10px 0;
+	letter-spacing:3px;
+}	
+
+.links{
+	display:flex;
+	justify-content:space-between;
+	align-items:center;
+	width:70%;
+	margin:auto;
+	border:1px solid #aaaaaa;
+	border-radius:5px;
+	margin-top:50px;
+}
+
+.link a{
+	text-decoration:none;
+}
+
+.link{
+	width:25%;
+	padding:12px 0;
+	text-align:center;
+	border:1px solid #aaaaaa;
+}	
+
+.bottom{
+	padding:50px 0 0;
+	text-align:center;
+	font-size:0.8rem;
+	letter-spacing:2px;
+}	
